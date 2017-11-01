@@ -10,7 +10,7 @@ class ScatterLayer extends Layer {
         }
         this.data = opts.data;
     }
-
+    
     requestInit(scene) {
         for (let i = 0; i < this.data.length; i++) {
             let sph = new window.THREE.Mesh(

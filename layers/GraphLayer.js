@@ -12,7 +12,8 @@ class GraphLayer extends Layer {
         }
         this.setData(opts.data);
     }
-
+    
+    //this method may not be required
     setData(data) {
         this.data = data;
         this.requestInit;

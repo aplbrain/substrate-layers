@@ -1,5 +1,5 @@
 class FibersLayer extends Layer {
-
+    
     constructor(props) {
         super(props);
         this.data = props.data;
